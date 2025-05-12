@@ -25,7 +25,7 @@ export default function Home() {
               Cosmic Creations
             </h1>
             <p className="mt-6 text-xl text-muted-foreground max-w-[600px] mx-auto">
-              We build innovative digital solutions that help businesses reach for the stars.
+              We build innovative cool digital solutions that help businesses reach for the stars.
             </p>
             <div className="mt-12 flex gap-4 justify-center">
               <Button size="lg" className="px-8 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">Get Started</Button>
