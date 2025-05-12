@@ -18,27 +18,34 @@ export function MobileNav() {
       </SheetTrigger>
       <SheetContent side="left" className="w-[240px] sm:w-[300px]">
         <nav className="flex flex-col gap-4 mt-8">
-          {/* <a
-            href="#"
-            className="px-2 py-1 text-foreground hover:text-primary transition-colors"
-            onClick={() => setOpen(false)}
-          >
-            Link 1
-          </a>
           <a
             href="#"
             className="px-2 py-1 text-foreground hover:text-primary transition-colors"
             onClick={() => setOpen(false)}
           >
-            Link 2
+            Home
           </a>
           <a
-            href="#"
+            href="#services"
             className="px-2 py-1 text-foreground hover:text-primary transition-colors"
             onClick={() => setOpen(false)}
           >
-            Link 3
-          </a> */}
+            Services
+          </a>
+          <a
+            href="#portfolio"
+            className="px-2 py-1 text-foreground hover:text-primary transition-colors"
+            onClick={() => setOpen(false)}
+          >
+            Portfolio
+          </a>
+          <a
+            href="#contact"
+            className="px-2 py-1 text-foreground hover:text-primary transition-colors"
+            onClick={() => setOpen(false)}
+          >
+            Contact
+          </a>
         </nav>
       </SheetContent>
     </Sheet>
